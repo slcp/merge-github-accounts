@@ -2,7 +2,7 @@
 set -e
 
 TEMP_DIR=$(dirname $0)/intermediate
-NEW_OWNER="slcp"
+NEW_OWNER=""
 
 # Create an intermediate artifacts directory
 mkdir -p $TEMP_DIR
